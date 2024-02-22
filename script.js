@@ -20,7 +20,7 @@ class Square extends Rectangle {
 		super(side,side);
 	}
 	getPerimeter(){
-		return this.side*4;
+		return this.width*4;
 	}
 }
 	
